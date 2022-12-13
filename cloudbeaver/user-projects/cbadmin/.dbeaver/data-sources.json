@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1850c9dd817-66532a0858394e00": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL@mysql",
+			"configuration": {
+				"host": "mysql",
+				"port": "3306",
+				"url": "jdbc:mysql://mysql:3306/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

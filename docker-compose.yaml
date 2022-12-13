@@ -25,8 +25,19 @@ services:
       - workbench-data:/config
     ports:
       - 13000:3000
-    
+  
+  cloudbeaver:
+    image: dbeaver/cloudbeaver:latest
+    container_name: cloudbeaver
+    restart: unless-stopped
+    environment:
+      APP.ANONYMOUSACCESSENABLED: false
+    volumes:
+      - ./cloudbeaver:/opt/cloudbeaver/workspace
+    ports: 
+      - 18978:8978
 volumes:
   mysql-data:
   mysql-log:
   workbench-data:
+  cloudbeaver-data:
