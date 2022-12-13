@@ -49,3 +49,10 @@ Notes: [Cloudbeaver](https://github.com/dbeaver/cloudbeaver)  is a web-based ver
     - user name: root
     - password: rootpassword
     - port: 13306
+
+
+## Notes:
+
+Official MySQL tutorial -> https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/
+
+ANother great starting tutorial -> https://www.mysqltutorial.org
